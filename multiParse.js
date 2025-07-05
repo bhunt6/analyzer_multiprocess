@@ -45,9 +45,9 @@
 //   year={2009}
 // }
 
-import { foma_apply_down, foma_apply_dn } from './foma_apply_down.js';
-//import { m2s } from './m2s.js'; //morpheme to surface
-import { s2m } from './s2m.js'; //surface to morpheme
+import { foma_apply_down, foma_apply_dn } from './modules/foma_apply_down.js';
+//import { m2s } from './modules/m2s.js'; //morpheme to surface
+import { s2m } from './modules/s2m.js'; //surface to morpheme
 import { readFileSync } from 'fs';
 
 //replace this with your filename
